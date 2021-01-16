@@ -8,5 +8,5 @@ Shorter time steps improves the accuracy of the simulation but takes longer to c
 
 As an example, running the program with the arguments "3.154e+7 86400 planets.txt" will simulate Earth, Mars, Venus and Mercury orbiting the Sun for a one-year period across 24-hour timesteps.
 
-The input files are formatted the same way to contain the number of bodies, n, the size of the simulation space, and then a row of data per body which contains:
+The input files are formatted the same way to contain the number of bodies, the size of the simulation space, and then a row of data per body which contains:
 y co-ordinate, y co-ordinate, x velocity component, y velocity component, mass, and image filename for that body. The units are in m, m/s, and kg respectively.
